@@ -36,4 +36,14 @@ public class Calculadora {
         double resultado = a - b;
         System.out.println("El resultado de la resta es: " + resultado);
     }
+
+    public static void division(double a, double b) {
+        double resultado = a / b;
+        System.out.println("El resultado de la div es: " + resultado);
+    }
+
+    public static void multiplicacion(double a, double b) {
+        double resultado = a * b;
+        System.out.println("El resultado de la mul es: " + resultado);
+    }
 }
